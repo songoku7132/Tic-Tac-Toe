@@ -1,0 +1,86 @@
+.screen{
+    display: grid;
+    grid-template-columns: 1fr 400px 1fr;
+    grid-template-rows: 1fr 50px 400px 50px;
+}
+h1{
+    border: 2px solid blac;
+    grid-column: 2/3;
+    text-align: center;
+}
+.game-board{
+    border: 2px solid blac;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.cell{
+    border: 2px solid black;
+    font-size: 7em;
+    text-align: center;
+}
+#cell-1{
+    border-top: 0;
+    border-left: 0;
+}
+#cell-2{
+    border-top: 0;
+}
+#cell-3{
+    border-top: 0;
+    border-right: 0;
+}
+#cell-4{
+    border-left: 0;
+}
+#cell-6{
+    border-right: 0;
+}
+#cell-7{
+    border-bottom: 0;
+    border-left: 0;
+}
+#cell-8{
+    border-bottom: 0;
+}
+#cell-9{
+    border-bottom: 0;
+    border-right: 0;
+}
+.display{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    display: flex;
+    border: 2px solid blac;
+    justify-content: center;
+    margin-top: 20px;
+}
+.display p{
+    border: 2px solid blac;
+    flex:0 1 auto;
+    margin:0;
+    font-size: 2em;
+}
+.restart{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border: 2px solid blac;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#restart{
+    flex:0 1 0;
+}
+.user{
+    grid-row: 3/4;
+    border: 2px solid blac;
+    display: flex;
+    flex-direction: column;
+}
+.user input{
+    flex:0 1 auto;
+    margin: 90px;
+}
