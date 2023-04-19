@@ -4,12 +4,10 @@
     grid-template-rows: 1fr 50px 400px 50px;
 }
 h1{
-    border: 2px solid blac;
     grid-column: 2/3;
     text-align: center;
 }
 .game-board{
-    border: 2px solid blac;
     grid-column: 2/3;
     grid-row: 3/4;
     display: grid;
@@ -53,12 +51,10 @@ h1{
     grid-row: 4/5;
     grid-column: 2/3;
     display: flex;
-    border: 2px solid blac;
     justify-content: center;
     margin-top: 20px;
 }
 .display p{
-    border: 2px solid blac;
     flex:0 1 auto;
     margin:0;
     font-size: 2em;
@@ -66,7 +62,6 @@ h1{
 .restart{
     grid-row: 2/3;
     grid-column: 2/3;
-    border: 2px solid blac;
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -76,7 +71,6 @@ h1{
 }
 .user{
     grid-row: 3/4;
-    border: 2px solid blac;
     display: flex;
     flex-direction: column;
 }

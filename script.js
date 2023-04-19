@@ -77,8 +77,3 @@ const restartGame = () => {
 }
 
 const restartBtn = Restart.addEventListener('click', restartGame)
-
-const gone = () => {
-  console.log(playerOne.value)
-  console.log(playerTwo.value)
-}
